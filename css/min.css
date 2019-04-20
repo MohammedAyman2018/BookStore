@@ -1,0 +1,133 @@
+* {
+  user-select: none; }
+
+body {
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 20px;
+  color: #000;
+  font-family: 'Tajawal', sans-serif;
+  height: 3000px; }
+  body nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #130f40 !important;
+    border: none !important;
+    border-radius: 0 !important; }
+    body nav.navbar {
+      margin-bottom: 0; }
+    body nav .navbar-brand {
+      float: right;
+      color: white !important;
+      right: 0;
+      font-size: 30px;
+      font-weight: bold;
+      margin-right: 15px; }
+    body nav .navbar-header button {
+      border: 0;
+      margin-left: 15px;
+      float: left; }
+      body nav .navbar-header button span {
+        transition: all 0.4s ease; }
+      body nav .navbar-header button:hover, body nav .navbar-header button:focus, body nav .navbar-header button:active {
+        background-color: transparent !important; }
+        body nav .navbar-header button:hover span, body nav .navbar-header button:focus span, body nav .navbar-header button:active span {
+          background-color: #f0932b !important; }
+    body nav .container form.navbar-form {
+      width: 30%; }
+      body nav .container form.navbar-form div {
+        width: 70%; }
+      body nav .container form.navbar-form input {
+        width: 100%; }
+      body nav .container form.navbar-form button {
+        font-size: 20px;
+        width: 20%;
+        border: none;
+        border-radius: 2px 25px;
+        margin-right: 15px;
+        padding: 5px 10px;
+        background-color: #f9ca24;
+        color: black; }
+        body nav .container form.navbar-form button:active, body nav .container form.navbar-form button:visited, body nav .container form.navbar-form button:focus {
+          outline: 0; }
+    body nav .container ul.nav li {
+      transition: all 0.4s ease;
+      padding: 0 15px; }
+      body nav .container ul.nav li.active a {
+        background-color: transparent;
+        color: #f0932b; }
+        body nav .container ul.nav li.active a:hover, body nav .container ul.nav li.active a:active, body nav .container ul.nav li.active a:focus {
+          background-color: transparent !important;
+          color: #f0932b; }
+    body nav div.nice-select {
+      padding: 5px 0;
+      color: white;
+      background-color: transparent !important;
+      border-radius: 0;
+      border: none;
+      box-sizing: content-box;
+      clear: both;
+      cursor: pointer;
+      display: inline-block;
+      float: none;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: 400;
+      height: 42px;
+      line-height: 40px;
+      outline: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      text-align: right !important;
+      -webkit-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      white-space: nowrap;
+      width: auto; }
+      body nav div.nice-select:hover {
+        color: #f0932b;
+        background-color: transparent; }
+      body nav div.nice-select::after {
+        left: 0;
+        right: auto; }
+      body nav div.nice-select ul.list {
+        right: 0;
+        left: auto;
+        background-color: black;
+        color: white; }
+        body nav div.nice-select ul.list .option {
+          background-color: transparent; }
+          body nav div.nice-select ul.list .option:hover {
+            color: #f0932b;
+            background-color: transparent; }
+          body nav div.nice-select ul.list .option.disabled {
+            cursor: not-allowed; }
+            body nav div.nice-select ul.list .option.disabled:hover {
+              color: #aaa;
+              background-color: transparent; }
+          body nav div.nice-select ul.list .option.selected {
+            color: #f0932b; }
+            body nav div.nice-select ul.list .option.selected.focus {
+              background-color: transparent; }
+          body nav div.nice-select ul.list .option.focus {
+            background-color: transparent;
+            color: #f0932b; }
+      body nav div.nice-select li {
+        text-align: right !important; }
+  body .jumbotron {
+    background-color: #f9ca24;
+    height: 40vh; }
+  body .decleration h1 {
+    width: 40%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-block-end-color: white;
+    border-bottom: 1px solid #f9ca24; }
+
+/*# sourceMappingURL=min.css.map */

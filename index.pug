@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+html(lang="ar" dir="rtl")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+        link( rel='stylesheet' src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.18.14/slimselect.min.css")
+        link(href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet")
+        link(href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" rel="stylesheet")
+        link(rel="stylesheet" href="css/min.css")
+        link(rel="stylesheet" href="css/media.css")
+
+    body
+
+        nav.navbar.navbar-default
+            .container
+                // Brand and toggle get grouped for better mobile display
+                .navbar-header
+                    button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#bs-example-navbar-collapse-1' aria-expanded='false')
+                        span.sr-only Toggle navigation
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                // Collect the nav links, forms, and other content for toggling
+                    a.navbar-brand.navbar-right(href='#') فؤاد حداد         
+                #bs-example-navbar-collapse-1.collapse.navbar-collapse
+
+                    form.navbar-form.navbar-left
+                        .form-group
+                            input.form-control(type='text' placeholder='أبحث عن كتاب / مقال / قصيدة')
+                        button.btn.btn-default(type='submit') بحث
+                    
+                    ul.nav.navbar-nav.navbar-right.text-right
+                        li.navbar-right.text-right.active
+                            a(href='#') الرئيسية
+                        li.dropdown.navbar-right.text-right
+                            a.dropdown-toggle(href='#' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false')
+                                | أقسام 
+                                span.caret
+                            ul.dropdown-menu
+                                li.text-right
+                                    a(href='#') نثر
+                                li.text-right
+                                    a(href='#') شعر
+                                li.text-right
+                                    a(href='#') تحميل كتب
+                                li.divider(role='separator')
+                                li.text-right
+                                    a(href='#') مقالات
+
+                        li.dropdown.navbar-right.text-right
+                            select
+                                option(data-display=" كتاب أخرين") فؤاد حداد
+                                option(value="1") أحمد خالد توفيق
+                                option(value="2") صلاح جاهين
+                                option(value="3" disabled)  إحسان عبد القدوس
+                                option(value="4") مجلات
+
+            // /.container-fluid
+        
+        .container
+            .jumbotron
+                h1 من نحن؟ 
+                p هذا موقع غير ربحي هدفه الوحيد التعريف بالشاعر فؤاد حداد
+                    br
+                    |وإبراز دوره في النهضة بالأدب المصري سواء باللغة العامية أو باللغة الفصحى 
+
+
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+        script( src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.js")
+        script(src="js/main.js")
