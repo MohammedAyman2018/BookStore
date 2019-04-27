@@ -1,6 +1,8 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   body nav .navbar-brand {
-    top: 0; }
+    top: 0;
+    margin-right: 0;
+    padding-right: 0; }
 
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     position: fixed;
@@ -12,15 +14,22 @@
     background-color: black;
     padding-top: 30px;
     border: none;
-    box-shadow: none; }
+    box-shadow: none;
+    z-index: 99999; }
     .navbar-default .navbar-collapse div, .navbar-default .navbar-form div {
       width: 70%;
+      z-index: 99999;
       display: inline-block; }
     .navbar-default .navbar-collapse button, .navbar-default .navbar-form button {
       display: inline-block;
-      width: 20%; }
+      width: 20%;
+      z-index: 99999; }
     .navbar-default .navbar-collapse ul.nav, .navbar-default .navbar-form ul.nav {
-      padding-top: 50px; }
+      z-index: 99999;
+      padding-top: 50px;
+      padding-right: 0; }
+      .navbar-default .navbar-collapse ul.nav body nav .container ul.nav li, .navbar-default .navbar-form ul.nav body nav .container ul.nav li {
+        float: none; }
 
   nav .container form.navbar-form {
     width: 100% !important; }
@@ -36,6 +45,18 @@
       margin-right: 15px;
       padding: 5px 10px;
       background-color: black;
-      color: black; } }
+      color: black; }
+
+  .jumbotron {
+    line-height: 1.5; }
+
+  .decleration h1 {
+    width: 100% !important; } }
+@media (min-width: 768px) and (max-width: 992px) {
+  .navbar-default .navbar-collapse div, .navbar-default .navbar-form div {
+    width: 80%;
+    display: inline-block; }
+  .navbar-default .navbar-collapse .jumbotron, .navbar-default .navbar-form .jumbotron {
+    height: 100px !important; } }
 
 /*# sourceMappingURL=media.css.map */

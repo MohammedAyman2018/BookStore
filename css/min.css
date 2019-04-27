@@ -3,7 +3,7 @@
 
 body {
   font-weight: 500;
-  line-height: 28px;
+  line-height: 1.5;
   font-size: 20px;
   color: #000;
   font-family: 'Tajawal', sans-serif;
@@ -121,13 +121,26 @@ body {
       body nav div.nice-select li {
         text-align: right !important; }
   body .jumbotron {
-    background-color: #f9ca24;
-    height: 40vh; }
+    background-color: #f9ca24; }
   body .decleration h1 {
     width: 40%;
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-block-end-color: white;
     border-bottom: 1px solid #f9ca24; }
+  body .modal .modal-header {
+    background-color: #f9ca24;
+    border: none; }
+    body .modal .modal-header .close {
+      color: #000 !important;
+      font-size: 20px; }
+  body .modal .modal-body {
+    font-size: 18px;
+    background-color: #130f40;
+    color: white;
+    border: none; }
+  body .modal .modal-footer {
+    background-color: #130f40;
+    font-size: 25px; }
 
 /*# sourceMappingURL=min.css.map */
