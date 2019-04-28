@@ -1,12 +1,11 @@
 @media (max-width: 767px) {
-  body nav .navbar-brand {
+  body nav .container .navbar-brand {
     top: 0;
     margin-right: 0;
     padding-right: 0; }
-
-  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  body nav .container .navbar-collapse {
     position: fixed;
-    top: 50px;
+    top: 0;
     margin: 0;
     left: 0;
     width: 100%;
@@ -16,47 +15,31 @@
     border: none;
     box-shadow: none;
     z-index: 99999; }
-    .navbar-default .navbar-collapse div, .navbar-default .navbar-form div {
-      width: 70%;
-      z-index: 99999;
-      display: inline-block; }
-    .navbar-default .navbar-collapse button, .navbar-default .navbar-form button {
-      display: inline-block;
-      width: 20%;
-      z-index: 99999; }
-    .navbar-default .navbar-collapse ul.nav, .navbar-default .navbar-form ul.nav {
-      z-index: 99999;
-      padding-top: 50px;
+    body nav .container .navbar-collapse .navbar-toggle {
+      float: left !important; }
+    body nav .container .navbar-collapse ul.nav {
       padding-right: 0; }
-      .navbar-default .navbar-collapse ul.nav body nav .container ul.nav li, .navbar-default .navbar-form ul.nav body nav .container ul.nav li {
-        float: none; }
-
-  nav .container form.navbar-form {
-    width: 100% !important; }
-    nav .container form.navbar-form div {
-      width: 100%; }
-    nav .container form.navbar-form input {
-      width: 70%; }
-    nav .container form.navbar-form button {
-      font-size: 20px;
-      width: 20% !important;
+    body nav .container .navbar-collapse form.navbar-form {
+      width: 100% !important;
       border: none;
-      border-radius: 10px;
-      margin-right: 15px;
-      padding: 5px 10px;
-      background-color: black;
-      color: black; }
-
-  .jumbotron {
-    line-height: 1.5; }
-
-  .decleration h1 {
+      box-shadow: none;
+      padding: 0;
+      margin: 50px 0 20px 0; }
+      body nav .container .navbar-collapse form.navbar-form div {
+        width: 70%;
+        display: inline-block; }
+      body nav .container .navbar-collapse form.navbar-form button {
+        display: inline-block;
+        width: 20% !important; }
+  body .decleration h1 {
     width: 100% !important; } }
 @media (min-width: 768px) and (max-width: 992px) {
-  .navbar-default .navbar-collapse div, .navbar-default .navbar-form div {
+  .navbar-default .navbar-collapse div,
+  .navbar-default .navbar-form div {
     width: 80%;
     display: inline-block; }
-  .navbar-default .navbar-collapse .jumbotron, .navbar-default .navbar-form .jumbotron {
+  .navbar-default .navbar-collapse .jumbotron,
+  .navbar-default .navbar-form .jumbotron {
     height: 100px !important; } }
 
 /*# sourceMappingURL=media.css.map */

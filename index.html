@@ -33,14 +33,32 @@
 			<!-- Collect the nav links, forms, and other content for togglinga.navbar-brand.navbar-right(href='#') فؤاد حداد         
 				-->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse"
+					data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
 				<form class="navbar-form navbar-left hidden-sm">
 					<div class="form-group">
 						<input class="form-control" type="text" placeholder="أبحث عن كتاب / مقال / قصيدة" />
 					</div>
 					<button class="btn btn-primary" type="submit">بحث</button>
 				</form>
+
 				<ul class="nav navbar-nav navbar-right text-right">
-					<li class="navbar-right text-right active"><a href="#">الرئيسية</a></li>
+					<li class="navbar-right text-right active">
+						<select>
+							<option data-display=" الرئيسية">الرئيسية</option>
+							<option value="1">من نحن</option>
+							<option value="2">من هو فؤاد؟</option>
+							<option value="4">شعر</option>
+							<option value="5">نتر</option>
+						</select>
+					</li>
 					<li class="dropdown navbar-right text-right">
 						<select>
 							<option data-display=" تعريف "> تعريف</option>
@@ -66,7 +84,7 @@
 		<!-- /.container-fluid-->
 	</nav>
 	<!-- ================= Jumbotron ================= -->
-	<div class="jumbotron">
+	<div id="1" class="jumbotron">
 		<div class="container">
 			<h1>من نحن؟ </h1>
 			<p>هذا موقع غير ربحي هدفه الوحيد التعريف بالشاعر فؤاد حداد<br />وإبراز دوره في النهضة بالأدب المصري سواء
@@ -74,14 +92,14 @@
 		</div>
 	</div>
 	<!-- ================= Section one ================= -->
-	<section class="decleration">
+	<section id="2" class="decleration">
 		<div class="container">
-			<h1>من هو فؤاد حداد؟</h1>
+			<h1 class="haeding">من هو فؤاد حداد؟</h1>
 			<div class="row">
 				<div class="col-sm-8 pull-right">
 					<p>
 						كل مجال في الدنيا بيكون فيه نجومه المُضيئة على مر التاريخ، سواء القُدام أو الجُداد..في الفيزيا
-						عندك إينشاتين و زويل..في الكرة كريستيانو و ميسي..في الغنا مايكل چاكسون ومايكل چاكسون...وفي الشعر
+						عندك إينشاتين و زويل..في الكرة كريستيانو و ميسي..في الغنا مايكل چاكسون...وفي الشعر
 						فيه المتنبي..وفيه (فؤاد حدّاد
 						). <a data-toggle="modal" data-target="#myModal">اقرأ المزيد</a>
 					</p>
@@ -100,46 +118,65 @@
 
 									١) كل مجال في الدنيا بيكون فيه نجومه المُضيئة على مر التاريخ، سواء القُدام أو
 									الجُداد..في الفيزيا عندك إينشاتين و زويل..في الكرة كريستيانو و ميسي..في الغنا مايكل
-									چاكسون ومايكل چاكسون...وفي الشعر فيه المتنبي..وفيه (فؤاد حدّاد).
+									چاكسون ...وفي الشعر فيه المتنبي..وفيه (فؤاد حدّاد).
 									<br><br>
 									أول مرة قريت لحداد ماعجبنيش. قُلت: "إيه ده يا عم!، أُمال إيه والد الشُعراء والكلام
-									ده..دي بروباجندا ع الفاضي وبتاع"...<br><br>تاني مرة القدر ساق لي شِعر فؤاد، حسيت إني ضيعت
+									ده..دي بروباجندا ع الفاضي وبتاع"...<br><br>تاني مرة القدر ساق لي شِعر فؤاد، حسيت إني
+									ضيعت
 									وقت كبير من عُمري جاهل بالعظمة اللي كانت قدامي دي...عبقرية فؤاد حداد أجبرت الجميع
-									بالإعتراف بيها، معاصريه قبل الأجيال اللي بعده...<br><br>فؤاد حداد واحد من أولياء الله
+									بالإعتراف بيها، معاصريه قبل الأجيال اللي بعده...<br><br>فؤاد حداد واحد من أولياء
+									الله
 									الصالحين اللي كان بيمشي يكتب تنبؤات وتحصل بعدها بسنين.. ليه فؤاد حداد؟
 									<br><br>
-									٢) من ضمن أسباب حُبي لفؤاد حداد، إنه -على المستوى الإنساني- بطل. <br> كُلنا بنخاف نختار،
+									٢) من ضمن أسباب حُبي لفؤاد حداد، إنه -على المستوى الإنساني- بطل. <br> كُلنا بنخاف
+									نختار،
 									كلنا بنحب نبقى مايعين في إختياراتنا ونسيب الدُنيا تختارلنا عشان ما نتحملش عواقب
-									إختيارتنا...فكرة الإختيار والقرار صعبة جدًا..<br><br>حدّاد إختار!. ضحى بحاجات غالية ومهمة
+									إختيارتنا...فكرة الإختيار والقرار صعبة جدًا..<br><br>حدّاد إختار!. ضحى بحاجات غالية
+									ومهمة
 									وقيمة في سبيل حاجات تانية هو عايزها ومؤمن بيها...قد يكون فؤاد حداد ما عاشش النموذج
 									المثالي للفرد في المجتمع كما تنص عليه الأعراف والكتالوج، لكنه عاش زي ما فؤاد حداد
 									عايز يعيش، <br><br>عاش زي ما فؤاد حداد لازم يعيش...ليه فؤاد حداد؟
 									<br><br>
-									٣) فؤاد حداد يساري. انضم وهو في العشرينات لتنظيم (حدتو) وكان عضو بارز فيه...كان بيدافع
+									٣) فؤاد حداد يساري. انضم وهو في العشرينات لتنظيم (حدتو) وكان عضو بارز فيه...كان
+									بيدافع
 									عن الفقرا والمهمشين والغلابة في كل مكان...وكان شايف (ناصر) أمل في تحقيق
 									العدالة..ورغم إن ناصر أعتقله ٩ سنين، في الوقت اللي اتهم فيه اليساريين في حريق
-									القاهرة..<br><br>لكن حداد فِضل يحبه وشايف فيه الأمل وكتب ديوان (حنبني السد) عن اقتناع...فؤاد
+									القاهرة..<br><br>لكن حداد فِضل يحبه وشايف فيه الأمل وكتب ديوان (حنبني السد) عن
+									اقتناع...فؤاد
 									حداد مقتنع زيي بنفس الحاجة.. ليه فؤاد حداد؟
 									<br><br>
 									٤) وقت ما قابلت فؤاد حداد، كنت وحيد..ماكانش ليا غيرُه..كان هو مؤنسي الوحيد..بحكيله،
-									وبشكيله، وبسمع منه عن حياته ورفاقته ومرضُه وآلمُه..و بتعلم منه!. <br><br>اتعلمت من فؤاد
+									وبشكيله، وبسمع منه عن حياته ورفاقته ومرضُه وآلمُه..و بتعلم منه!. <br><br>اتعلمت من
+									فؤاد
 									حدّاد حاجات كتير جدًا..<br>اتعلمت منه إن الإنسان من واجبه يكون قوي، ومن واجبه في نفس
-									الوقت يكون رحيم<br><br> (وتخلي كل يوم إيدك تخشَنّ..وكل يوم قلبك أرق وأحنّ)<br><br>واتعلمت منه إن
+									الوقت يكون رحيم<br><br> (وتخلي كل يوم إيدك تخشَنّ..وكل يوم قلبك أرق
+									وأحنّ)<br><br>واتعلمت منه إن
 									الأخوة أهم من أي شئ في الدنيا و عرفت إنو <br><br>(مش حلوة
-									بين الإخوات يا كلمة أنا)<br><br>..وحذرنّي من فرط الإحساس والإنسانية وقال:<br><br>(الشعور بالإنسانية
-									أليم)<br><br>علمني حُسن الغزل وجَميل الحُب لما قال: <br><br>(الحب أرحم..لما يبقى مُغازلة)<br><br>ما
-									خلانيش أفقد الأمل في الناس وخلاني أفضل أراهن عليهم <br><br>(مفيش حياة إلا عند غيرك..تعيش في
-									خيرُه ويعيش في خيرك)<br><br>علمني أعيد تشكيل العالم وتحويل القبيح لجميل ورؤية الجمال في
-									وسط الحُزن، لما كان ايديه في الكلبشات: <br><br>(و من الحديد بعمل شجر وغصون)<br><br>وعلمني درس مهم
+									بين الإخوات يا كلمة أنا)<br><br>..وحذرنّي من فرط الإحساس والإنسانية
+									وقال:<br><br>(الشعور بالإنسانية
+									أليم)<br><br>علمني حُسن الغزل وجَميل الحُب لما قال: <br><br>(الحب أرحم..لما يبقى
+									مُغازلة)<br><br>ما
+									خلانيش أفقد الأمل في الناس وخلاني أفضل أراهن عليهم <br><br>(مفيش حياة إلا عند
+									غيرك..تعيش في
+									خيرُه ويعيش في خيرك)<br><br>علمني أعيد تشكيل العالم وتحويل القبيح لجميل ورؤية الجمال
+									في
+									وسط الحُزن، لما كان ايديه في الكلبشات: <br><br>(و من الحديد بعمل شجر
+									وغصون)<br><br>وعلمني درس مهم
 									جدًا جدًا هو إن مهما بعدنا عن ناس أو سبنا ناس كلنا بنفضل ندوب دايمة على قلوب بعض،
-									مهما كنا مش محتاجينهم، ومهما آذيناهم أو آذونا علمني إنه: <br><br>(فيه آثر للعِشرة مهما
-									تهون)<br><br>علمني إن الجمال مش هو الجمال المُرهِق المثالي، وإن الجمال الحقيقي هو الجمال
-									اللي نابع من شقا وحُزن أصيل..جمال العادية وتميزها..وإنه قال:<br><br>(أنا بكره الحُسن اللي من غير شقا)<br><br>ليه فؤاد حداد؟...عشان فؤاد حداد علمني أهم درس ممكن أتعلمه..علمني أسامح كل
-									حاجة وأي حاجة..إلا حاجة واحدة بس... فؤاد حداد طبعًا..فؤاد حداد دايمًا عشان<br><br> "كل
+									مهما كنا مش محتاجينهم، ومهما آذيناهم أو آذونا علمني إنه: <br><br>(فيه آثر للعِشرة
+									مهما
+									تهون)<br><br>علمني إن الجمال مش هو الجمال المُرهِق المثالي، وإن الجمال الحقيقي هو
+									الجمال
+									اللي نابع من شقا وحُزن أصيل..جمال العادية وتميزها..وإنه قال:<br><br>(أنا بكره الحُسن
+									اللي من غير شقا)<br><br>ليه فؤاد حداد؟...عشان فؤاد حداد علمني أهم درس ممكن
+									أتعلمه..علمني أسامح كل
+									حاجة وأي حاجة..إلا حاجة واحدة بس... فؤاد حداد طبعًا..فؤاد حداد دايمًا عشان<br><br>
+									"كل
 									شئ...كل شئ -إلا الخيانة- يجوز".
 								</div>
 								<div class="modal-footer text-center">
-										<button type="button" class="btn btn-danger" data-dismiss="modal"><strong>أغلق</strong></button>
+									<button type="button" class="center-block btn btn-danger"
+										data-dismiss="modal"><strong>أغلق</strong></button>
 								</div>
 							</div>
 						</div>
@@ -155,6 +192,329 @@
 			</div>
 		</div>
 	</section>
+	<!-- ================= Jumbotron ================= -->
+	<div id="3" class="jumbotron second">
+		<div class="container">
+			<h3 class="text-center">بكيت في الأول بكيت في الثاني</h3>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center pull-right">
+					<span class="visible-sm">(1)</span>
+					<br>
+					بكيت مسحت دموعي
+					<br>
+					بامسح دموعي بكيت
+					<br>
+					املوا علينا البيت
+					<br>
+					املوا علينا المخيم
+					<br>
+					املوا علينا الظلام
+					<br>
+					أنا القتيل المتيم
+					<br>
+					املوا علينا الشجن
+					<br>
+					أنا قتيل اتسجن
+					<br>
+					قتيل في يوم الفطام
+					<br>
+					<br>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center pull-right">
+					<span class="visible-sm">(2)</span>
+					<br>
+					املوا علينا عنينا
+					<br>
+					نزفنا دم النور
+					<br>
+					نزفنا في حبكم
+					<br>
+					دم الخيال خلينا
+					<br>
+					كل البلاد و الشهور
+					<br>
+					بلد وشهر حرام
+					<br>
+					قليل ما قلنا يا ريت
+					<br>
+					بكيت مسحت دموعي
+					<br>
+					بامسح دموعي بكيت
+					<br>
+					<br>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center pull-right">
+					<span class="visible-sm">(3)</span>
+					<br>
+					املوا علينا البيت
+					<br>
+					املوا علينا الطريق
+					<br>
+					مبلول كأنه طري
+					<br>
+					غنيت لقطر الندى
+					<br>
+					من كتر ما غنيت
+					<br>
+					شقت جفون اللي نام
+					<br>
+					رمت صبية و غلام
+					<br>
+					املوا علينا الصرخة
+					<br>
+					املوا علينا الكلام
+					<br>
+					<br>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center pull-right">
+					<span class="visible-sm">(4)</span>
+					<br>
+					املوا علينا الفرحة
+					<br>
+					املوا علينا الهوا
+					قليلة يوم الانتقام
+					<br>
+					قليل ما قلنا يا ريت
+					<br>
+					بكيت مسحت دموعي
+					<br>
+					بامسح دموعي بكيت
+					<br>
+					املوا علينا البيت
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ================= Section two ================= -->
+	<div class="section-two">
+		<div class="container">
+			<h1 class="haeding">كتاباته</h1>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="top" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="top" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="top" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="top" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="card" data-toggle="popover" data-placement="bottom" data-content="<p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+							<br>
+							أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا .</p>
+							<br>
+							<form method='get' action='file.doc'>
+								<button class='btn btn-success center-block' type='submit'>تحميل</button>
+							</form>">
+						<div class="card_img">
+							<img class='img-responsive' src="https://via.placeholder.com/300">
+						</div>
+						<div class="card_footer">
+							<p class="text-info text-center">
+								أي كلام كتجربة
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- ================= Scripts ================= -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
